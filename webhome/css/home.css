@@ -1,0 +1,257 @@
+.f-srcollOne::-webkit-scrollbar-track{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 2px;
+  background-color: #F5F5F5;
+}
+.f-srcollOne::-webkit-scrollbar{
+  width: 3px;
+  background-color: #F5F5F5;
+}
+.f-srcollOne::-webkit-scrollbar-thumb{
+  border-radius: 2px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #CCCCCC;
+}
+.webBox{
+    width: 1024px;
+    margin: 0 auto;
+    display: block;
+    overflow: hidden;
+}
+.webTop,.webMain{
+    width: 100%;
+    overflow:hidden;
+}
+.webMain{
+    margin-top: 20px;
+}
+.webTop img{
+    width: 100%;
+}
+.webTap,.webTap ul{
+    width: 100%;
+    height: 42px;
+    background: #20456b;
+    border-radius: 5px;
+}
+.webTap ul li{
+    float: left;
+    padding:0 10px;
+    height: 42px;
+    line-height: 42px;
+    color:#fff;
+    text-align: center;
+    font-size: 13px;
+}
+.webTap ul li a{
+    text-decoration: none;
+}
+.webTap ul li a:hover{
+    text-decoration: underline;
+}
+.webTap ul li a:link {
+    color:#fff;
+}
+.webTap ul li a:visited {
+    color:#fff;
+}
+.webMainleft,.webMainmiddle,.webMainright{
+    float: left;
+    display: inline-block;
+    overflow:hidden;
+}
+.webMainleft,.webMainright{
+    width:24.5%;
+}
+.webMainright{
+    float: right;
+}
+.webMainmiddle{
+    width: 50.8%;
+}
+.falstBox{
+    width: 99%;
+    border:1px solid #ccc;
+    overflow:hidden;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+.falstBox h4{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid #ccc;
+    background: #FAFAFA;
+    font-size: 14px;
+}
+.falstBox h4 span{
+    margin-left: 20px;
+}
+.enlist,.document{
+    display: block;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    height: 35px;
+    border:1px solid #4078cb;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 35px;
+    color:#fff;
+    background: #4078cb;
+}
+.cursor{
+    display: block;
+    width: 50px;
+    margin:10px auto;
+}
+.remind{
+    width: 90%;
+    margin-left: 5%;
+    overflow:hidden;
+}
+.remind p{
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.8;
+    margin-top: 10px;
+    text-align: justify;
+}
+.webMainTitle{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: none;
+}
+.timeBox{
+    background: url(../images/time.png) 0 0 no-repeat;
+    height: 135px;
+    width: 99%;
+    border:1px solid #ccc;
+    overflow:hidden;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+    background-size: 100%;
+    border-radius: 5px;
+}
+.overviewBox,.solictBox,.mettingMapbox,.connectBox{
+    width: 94%;
+    margin-left: 3%;
+    overflow:hidden;
+}
+.mettingMapbox{
+    margin-top: 0px;
+}
+.overviewBox p,.solictBox p,.connectBox p{
+    width: 100%;
+    overflow:hidden;
+    line-height: 1.8;
+    font-size:14px;
+    text-align: justify;
+}
+.connectBox{
+    margin-top: 30px;
+}
+.connectBox p span{
+    display: block;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.mettingMapbox p{
+    margin-left: 30px;
+    overflow:hidden;
+    line-height: 1.8;
+    font-size:15px;
+    font-weight: bold;
+    text-align: justify;
+}
+.solictBox h5{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+.spanMargin{
+    margin-left: 20px;
+}
+.titleTwo{
+    display: block;
+    font-style: 16px;
+}
+.remind h6{
+    text-align: justify;
+    line-height: 1.5;
+    margin:10px 0 -5px 0;
+}
+.info{
+    color: #17a2b8;
+}
+.red{
+    color: #dc3545;
+}
+.mettingTable {
+    width: 100%;
+    margin-top: 30px;
+}
+.mettingTable table {
+    height: 100%;
+    width: 100%;
+    /*border: 1px solid #ccc;*/
+    border-radius: 1px;
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    /*table-layout: fixed;*/
+}
+.mettingTable table thead tr {
+    background: #BFBFBF;
+    color: #000;
+}
+.mettingTable table thead tr th {
+    font-weight: bold;
+}
+.mettingTable table tr td, .mettingTable table tr th {
+    height: 40px;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    border: 1px solid #ccc;
+    font-size:13px;
+}
+.mettingTable table tbody tr:nth-child(1) td:nth-child(1){
+    background: #BFBFBF;
+    color: #000;
+    font-weight: bold;
+}
+.mettingTable table tbody tr:nth-child(3) td:nth-child(1){
+    background: #BFBFBF;
+    color: #000;
+    font-weight: bold;
+}
+.mettingTable table tbody tr:nth-child(4) td:nth-child(1){
+    background: #BFBFBF;
+    color: #000;
+    font-weight: bold;
+}
+.introduceBox{
+    width: 100%;
+    overflow:hidden;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.introduceBox img{
+    width: 100%;
+}
+.introduceBox a{
+    color: #28a745;
+    display: block;
+    margin-top: 38px;
+    font-size: 20px;
+}
